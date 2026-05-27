@@ -1,0 +1,15 @@
+# CodeG Agent Workspace
+
+CodeG Agent Workspace is a hosted remote MCP for CodeG.
+
+Website: https://codegworkspace.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: CodeG
+Type: MCP
+Default plan: team
+MCP endpoint: https://codegworkspace.clauxel.com/mcp
+Server card: https://codegworkspace.clauxel.com/server-card.json
+Registry name: com.clauxel.codegworkspace/codegworkspace-mcp
+Tools: register_agent_session, read_workspace_roster, write_handoff_note, export_session_summary
+
+Public boundary: docs-only repository; no production source code or secrets.
