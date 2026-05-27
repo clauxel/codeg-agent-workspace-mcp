@@ -1,15 +1,12 @@
 # CodeG Agent Workspace
 
-CodeG Agent Workspace is a hosted remote MCP for CodeG.
+CodeG Agent Workspace is a paid hosted remote MCP for CodeG. It exposes Streamable HTTP tool calls, bearer-token access, public server-card metadata, usage logs, and receipt-oriented JSON for AI agent workflows.
 
 Website: https://codegworkspace.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: CodeG
-Type: MCP
-Default plan: team
 MCP endpoint: https://codegworkspace.clauxel.com/mcp
 Server card: https://codegworkspace.clauxel.com/server-card.json
-Registry name: com.clauxel.codegworkspace/codegworkspace-mcp
-Tools: register_agent_session, read_workspace_roster, write_handoff_note, export_session_summary
+Docs: https://github.com/clauxel/codeg-agent-workspace-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: See and hand off every coding agent session in one workspace.
+Authentication: Bearer token required for production use.
+Tools: register_agent_session, read_workspace_roster, write_handoff_note, export_session_summary
