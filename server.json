@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.codegworkspace/codegworkspace-mcp",
-  "description": "CodeG Agent Workspace is a hosted remote MCP for CodeG.",
+  "title": "CodeG Agent Workspace",
+  "description": "CodeG Agent Workspace is a paid hosted remote MCP for CodeG. It exposes Streamable HTTP tool calls, bearer-token access, public server-card metadata, usage logs, and receipt-oriented JSON for AI agent workflows.",
   "version": "1.0.0",
-  "website_url": "https://codegworkspace.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/codeg-agent-workspace-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://codegworkspace.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/codeg-agent-workspace-mcp",
+  "serverCardUrl": "https://codegworkspace.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,16 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "CodeG Agent Workspace MCP",
-      "server_card_url": "https://codegworkspace.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "remote-mcp",
+    "paid-mcp",
+    "ai-agents",
+    "codeg",
+    "codegworkspace"
+  ]
 }
